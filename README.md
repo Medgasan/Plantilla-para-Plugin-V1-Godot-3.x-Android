@@ -16,8 +16,8 @@
 ### Editar 
 
 #### AndroidManifest.xml
-1. [ ] Modificar: 'android:value="[nombre del paquete].[nombre de la clase]"'
-2. [ ] Modificar 'android:name="org.godotengine.plugin.v1.[nombre del plugin]"'
+1. [ ] Modificar 'android:name="org.godotengine.plugin.v1.[nombre del plugin]"'
+2. [ ] Modificar: 'android:value="[nombre del paquete].[nombre de la clase]"'
 #### build.gradle.kts  (:app)
 1. [ ] Modificar 'namespace = "[nombre del paquete]"'
 
