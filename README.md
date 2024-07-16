@@ -6,11 +6,6 @@
 * No actualizar la librería "androidx.appcompat:appcompat:1.5.0"
 * Para ver todos los elementos es aconsejable usar la vista de _"Project"_  en el árbol de carpetas
 
-### Eliminar Git
-1. [ ] Borrar la carpeta .git de la carpeta raíz del proyecto 
-2. [ ] Ir a "File" -> "settings" -> "Directory Mappins" Eliminar los directorios 
-3. [ ] Sincronizar proyecto gradle
-
 ### Renombrar (May+F6 -> Rename):
 
 2. [ ] Crear un nuevo nombre de paquete.
