@@ -22,6 +22,9 @@
 1. [ ] Modificar 'namespace = "[nombre del paquete]"'
 2. [ ] Modificar 'android:name="org.godotengine.plugin.v1.[nombre del plugin]"'
 
+#### settings.gradle.kts
+1. [ ] rootProject.name = "[nombre del proyecto]"
+
 ### Si fuera necesario, actualizar: libs/_godot-lib.3.5.3.stable.release.aar_ desde:
 
 * https://godotengine.org/download/3.x/windows/
