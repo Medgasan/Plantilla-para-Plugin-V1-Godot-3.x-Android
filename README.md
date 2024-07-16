@@ -6,13 +6,18 @@
 * No actualizar la librería "androidx.appcompat:appcompat:1.5.0"
 * Para ver todos los elementos es aconsejable usar la vista de _"Project"_  en el árbol de carpetas
 
+### Eliminar Git
+1. [ ] Borrar la carpeta .git de la carpeta raíz del proyecto 
+2. [ ] Ir a "File" -> "settings" -> "Directory Mappins" Eliminar los directorios 
+3. [ ] Sincronizar proyecto gradle
+
 ### Renombrar (May+F6 -> Rename):
 
 1. [ ] Nombre del módulo (Godot3_5_3_DemoPlugin)
-2. [ ] Crear un nuevo nombre de paquete
-3. [ ] mover el contenido de '_com.neoofcomstudio.Godot3_5_3_DemoPlugin_' al nuevo espacio de nombres
+2. [ ] Crear un nuevo nombre de paquete.
+3. [ ] Mover el contenido de '_com.neoofcomstudio.Godot3_5_3_DemoPlugin_' al nuevo espacio de nombres.
 4. [ ] Corregir el package en la clase y en la anotación
-5. [ ] Nombre de la Clase Principal (DemoPlugin)
+5. [ ] Renombrar nombre de la Clase Principal (DemoPlugin)
 
 ### Editar
 
