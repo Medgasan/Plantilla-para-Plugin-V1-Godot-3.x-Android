@@ -14,10 +14,10 @@
 
 ### Editar
 
-* AndroidManifest.xml
-  1.[ ] Modificar: 'android:value="[nombre del paquete].[nombre de la clase]"'
-* build.gradle.kts  (:app)
-  1.[ ] Modificar 'namespace = "com.neoofcomstudio.godot3_5_3_demo_plugin"'
+#### * AndroidManifest.xml
+1.[ ] Modificar: 'android:value="[nombre del paquete].[nombre de la clase]"'
+#### * build.gradle.kts  (:app)
+1.[ ] Modificar 'namespace = "com.neoofcomstudio.godot3_5_3_demo_plugin"'
 
 ### Si fuera necesario, actualizar: libs/_godot-lib.3.5.3.stable.release.aar_ desde:
 
