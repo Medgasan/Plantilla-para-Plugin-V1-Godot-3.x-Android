@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <meta-data
+            android:name="org.godotengine.plugin.v1.DemoPlugin"
+            android:value="com.neoofcomstudio.godot3_5_3_demo_plugin.DemoPlugin" />
+    </application>
+
+</manifest>
