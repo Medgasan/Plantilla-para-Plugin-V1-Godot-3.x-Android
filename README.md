@@ -13,7 +13,6 @@
 
 ### Renombrar (May+F6 -> Rename):
 
-1. [ ] Nombre del módulo (Godot3_5_3_DemoPlugin)
 2. [ ] Crear un nuevo nombre de paquete.
 3. [ ] Mover el contenido de '_com.neoofcomstudio.Godot3_5_3_DemoPlugin_' al nuevo espacio de nombres.
 4. [ ] Corregir el package en la clase y en la anotación
