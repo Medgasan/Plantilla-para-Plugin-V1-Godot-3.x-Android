@@ -5,6 +5,7 @@
 ### Importante, antes de empezar:
 * No actualizar la librería "androidx.appcompat:appcompat:1.5.0"
 * Para ver todos los elementos es aconsejable usar la vista de _"Project"_  en el árbol de carpetas
+* La plantilla ya incluye la librería godot-lib.3.5.3.stable.release.aar en la carpeta app/libs
 
 ### Renombrar (May+F6 -> Rename):
 
