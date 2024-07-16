@@ -18,7 +18,7 @@
 4. [ ] Corregir el package en la clase y en la anotación
 5. [ ] Renombrar nombre de la Clase Principal (DemoPlugin)
 
-### Editar
+### Editar 
 
 #### AndroidManifest.xml
 1. [ ] Modificar: 'android:value="[nombre del paquete].[nombre de la clase]"'
