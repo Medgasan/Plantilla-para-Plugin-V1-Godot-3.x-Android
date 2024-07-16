@@ -9,15 +9,18 @@
 ### Renombrar (May+F6 -> Rename):
 
 1. [ ] Nombre del módulo (Godot3_5_3_DemoPlugin)
-2. [ ] Nombre del Paquete (com.neoofcomstudio.Godot3_5_3_DemoPlugin)
-3. [ ] Nombre de la Clase Principal (DemoPlugin)
+2. [ ] Crear un nuevo nombre de paquete
+3. [ ] mover el contenido de '_com.neoofcomstudio.Godot3_5_3_DemoPlugin_' al nuevo espacio de nombres
+4. [ ] Corregir el package en la clase y en la anotación
+5. [ ] Nombre de la Clase Principal (DemoPlugin)
 
 ### Editar
 
 #### AndroidManifest.xml
 1. [ ] Modificar: 'android:value="[nombre del paquete].[nombre de la clase]"'
 #### build.gradle.kts  (:app)
-1. [ ] Modificar 'namespace = "com.neoofcomstudio.godot3_5_3_demo_plugin"'
+1. [ ] Modificar 'namespace = "[nombre del paquete]"'
+2. [ ] Modificar 'android:name="org.godotengine.plugin.v1.[nombre del plugin]"'
 
 ### Si fuera necesario, actualizar: libs/_godot-lib.3.5.3.stable.release.aar_ desde:
 
