@@ -28,3 +28,26 @@
 ### Si fuera necesario, actualizar: libs/_godot-lib.3.5.3.stable.release.aar_ desde:
 
 * https://godotengine.org/download/3.x/windows/
+
+------------------------------------------------------------------------------------------
+# Template for Plugin V1 Godot 3.x Android
+## Modifications:
+### Important, before starting:
+* Do not update the library "androidx.appcompat:appcompat:1.5.0"
+* To see all the elements, it is recommended to use the "Project" view in the folder tree.
+* The template already includes the godot-lib.3.5.3.stable.release.aar library in the app/libs folder.
+### Rename (Shift+F6 -> Rename):
+1. [ ] Create a new package name.
+2. [ ] Move the content from 'com.neoofcomstudio.Godot3_5_3_DemoPlugin' to the new namespace.
+3. [ ] If necessary, correct the package in the class and in the annotation.
+4. [ ] Rename the Main Class (DemoPlugin).
+### Edit
+#### AndroidManifest.xml
+1. [ ] Modify 'android="org.godotengine.plugin.v1.[plugin name]"'
+2. [ ] Modify: 'android="[package name].[class name]"'
+#### build.gradle.kts (:app)
+1. [ ] Modify 'namespace = "[package name]"'
+#### settings.gradle.kts
+1. [ ] rootProject.name = "[project name]"
+### If necessary, update: libs/godot-lib.3.5.3.stable.release.aar from:
+* https://godotengine.org/download/3.x/windows/
