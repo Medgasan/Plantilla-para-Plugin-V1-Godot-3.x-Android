@@ -10,7 +10,7 @@
 
 2. [ ] Crear un nuevo nombre de paquete.
 3. [ ] Mover el contenido de '_com.neoofcomstudio.Godot3_5_3_DemoPlugin_' al nuevo espacio de nombres.
-4. [ ] Corregir el package en la clase y en la anotación
+4. [ ] En caso de ser necesario, corregir el package en la clase y en la anotación
 5. [ ] Renombrar nombre de la Clase Principal (DemoPlugin)
 
 ### Editar 
