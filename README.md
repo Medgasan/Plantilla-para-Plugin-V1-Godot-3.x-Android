@@ -1,6 +1,7 @@
 # Plantilla para Plugin V1 Godot 3.x Android
 
 ## Plantilla preconfigurada para crear plugins android
+
 ### Mejoras:
 * Para definir los métodos exportables sólo han de ser publicos y contener la etiqueta @GodotMethod
 * Con esto, la plantilla se encarga de recopilar esos métodos y exponerlos al Motor.
@@ -41,6 +42,7 @@
 # Template for Plugin V1 Godot 3.x Android
 
 ### Preconfigured Template for Creating Android Plugins
+
 ### Improvements:
 * To define exportable methods, they only need to be public and contain the @GodotMethod annotation.
 * The template automatically collects these methods and exposes them to the Engine.
