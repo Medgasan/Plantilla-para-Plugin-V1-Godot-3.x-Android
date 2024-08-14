@@ -1,5 +1,13 @@
 # Plantilla para Plugin V1 Godot 3.x Android
 
+## Plantilla preconfigurada para crear plugins android
+### Mejoras:
+* Para definir los métodos exportables sólo has de ser publicos y contener la etiqueta @GodotMethod
+* Con esto, la plantilla se encarga de recopilar esos métodos y exponerlos al Motor.
+* De momento, las señales se siguen definiendo en `initSignals()`
+* El plugin expone el nombre de la clase como nombre del plugin en `getPluginName()`.
+
+
 ## Modificaciones:
 
 ### Importante, antes de empezar:
@@ -31,6 +39,14 @@
 
 ------------------------------------------------------------------------------------------
 # Template for Plugin V1 Godot 3.x Android
+
+### Preconfigured Template for Creating Android Plugins
+### Improvements:
+* To define exportable methods, they only need to be public and contain the @GodotMethod annotation.
+* The template automatically collects these methods and exposes them to the Engine.
+* For now, signals are still defined in the `initSignals()` method.
+* The plugin exposes the class name as the plugin name in `getPluginName()`.
+
 ## Modifications:
 ### Important, before starting:
 * Do not update the library "androidx.appcompat:appcompat:1.5.0"
