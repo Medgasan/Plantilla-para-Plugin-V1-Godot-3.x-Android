@@ -2,7 +2,7 @@
 
 ## Plantilla preconfigurada para crear plugins android
 ### Mejoras:
-* Para definir los métodos exportables sólo has de ser publicos y contener la etiqueta @GodotMethod
+* Para definir los métodos exportables sólo hans de ser publicos y contener la etiqueta @GodotMethod
 * Con esto, la plantilla se encarga de recopilar esos métodos y exponerlos al Motor.
 * De momento, las señales se siguen definiendo en `initSignals()`
 * El plugin expone el nombre de la clase como nombre del plugin en `getPluginName()`.
