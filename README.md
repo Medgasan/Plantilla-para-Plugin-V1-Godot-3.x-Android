@@ -7,6 +7,7 @@
 * Con esto, la plantilla se encarga de recopilar esos métodos y exponerlos al Motor.
 * De momento, las señales se siguen definiendo en `initSignals()`
 * El plugin expone el nombre de la clase como nombre del plugin en `getPluginName()`.
+* También genera automáticamente el archivo gdap para empezar a usar el plugin.
 
 
 ## Modificaciones:
@@ -46,6 +47,7 @@
 * The template automatically collects these methods and exposes them to the Engine.
 * For now, signals are still defined in the `initSignals()` method.
 * The plugin exposes the class name as the plugin name in `getPluginName()`.
+* Automatically generates the `gdap` file to start using the plugin right away.
 
 ## Modifications:
 ### Important, before starting:
